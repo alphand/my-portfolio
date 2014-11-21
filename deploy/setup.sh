@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APP_DIR=/users/nodejs/apps/nikod-portfolio
+APP_DIR=/home/nodejs/apps/nikod-portfolio
 # APP_DIR=../test
 
 
@@ -32,4 +32,3 @@ if [[ -L  "$APP_DIR/current" ]]; then
 fi
 
 ln -s "$APP_DIR/releases/$relname" "$APP_DIR/current"
-`
