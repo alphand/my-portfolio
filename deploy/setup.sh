@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APP_DIR = "/users/nodejs/apps/nikod-portfolio"
+APP_DIR=/users/nodejs/apps/nikod-portfolio
 # APP_DIR=../test
 
 
